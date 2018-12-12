@@ -87,7 +87,7 @@ class PageHome extends Component {
                     </Typography>
                     <Typography variant="h6" align="center" color="textSecondary" paragraph>
                       {/* Genesis 1:27 'So God created humankind in his image, in the image of God he created them; male and female he created them.' */}
-                      Luke 1:37 'For nothing will be impossible with God'
+                      Ben Cady's quest tracker. Through perserverence, he will rise above the rest of us. 
                     </Typography>
 
                     <div className={classes.heroButtons}>

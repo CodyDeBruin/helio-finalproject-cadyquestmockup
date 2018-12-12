@@ -67,7 +67,7 @@ class LoginDialog extends Component {
 
     return (
       <div>
-        <Button type="submit" onClick={this.handleClickOpen}>Login</Button>
+        <Button type="submit" color="inherit" onClick={this.handleClickOpen}>Login</Button>
 
         <Dialog
           open={this.state.open}
@@ -80,9 +80,7 @@ class LoginDialog extends Component {
           <DialogTitle id="alert-dialog-title">Login</DialogTitle>
             
           <DialogContent>
-            
-          <Grid container spacing={40} direction='column' className={classes.gridContainer}>
-
+          
               <TextField
                 id="username-input"
                 label="Username"
@@ -94,6 +92,7 @@ class LoginDialog extends Component {
               />
 
               <TextField
+                type="password"
                 id="password-input"
                 label="Password"
                 className={classes.textField}
@@ -102,7 +101,6 @@ class LoginDialog extends Component {
                 margin="normal"
                 variant="outlined"
               />
-            </Grid>
 
           </DialogContent>
           <DialogActions>
